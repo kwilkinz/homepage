@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="shortcut icon" href="https://i.postimg.cc/9fqYVvxh/logo.png" type="image/x-icon"> -->
+    <link rel="stylesheet" href="./index.css"/>
+</head>
+<body>
+    <main>
+        <aside class="sidebar " data-sidebar>
+            <div class="sidebar-info">
+                <figure class="avatar-box">
+                    <!-- <img src="https://i.postimg.cc/JzBWVhW4/my-avatar.png" alt="avatar" width="80"> -->
+                </figure>
+
+                <div class="info-content">
+                    <h1 class="name" title="Keri Wilkins">Keri Wilkins</h1>
+                    <p class="title">Front-End Engineer</p>
+                </div>
+
+                <button class="info-more-btn" data-sidebar-btn>
+                    <span>Show Contacts</span>
+                    <ion-icon name="chevron-down"></ion-icon>
+                </button>
+            </div>
+
+            <div class="sidebar-info-more">
+                <div class="separator"></div>
+
+                <ul class="contacts-list">
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Email</p>
+
+                            <a href="mailto:keriannwilkins@gmail.com" class="contact-link">keriannwilkins</a>
+                        </div>
+                    </li>
+
+                    <!-- <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="phone-portrait-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Phone</p>
+
+                            <a href="tel:+12133522795" class="contact-link">+1 (213) 352-2795</a>
+                        </div>
+                    </li> -->
+
+                    <!-- <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="calendar-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Birthday</p>
+
+                            <time datetime="1982-06-23">June 23, 1982</time>
+                        </div>
+                    </li> -->
+
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="location-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Location</p>
+
+                            <address>Texas, USA</address>
+                        </div>
+                    </li>
+                </ul>
+
+                <div class="separator"></div>
+
+                <ul class="social-list">
+                    <li class="social-item"><a href="https://www.linkedin.com/in/keri-ann-wilkins/" class="social-link"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                    <li class="social-item"><a href="https://github.com/kwilkinz" class="social-link"><ion-icon name="logo-github"></ion-icon></a></li>
+                </ul>
+            </div>
+        </aside>
+
+        <div class="main-content">
+            <nav class="navbar">
+                <ul class="navbar-list">
+                    <li class="navbar-item"><button class="navbar-link active" data-nav-link>About</button></li>
+                    <li class="navbar-item"><button class="navbar-link" data-nav-link>Resume</button></li>
+                    <!-- <li class="navbar-item"><button class="navbar-link" data-nav-link>Portfolio</button></li> -->
+                    <li class="navbar-item"><button class="navbar-link" data-nav-link>Blog</button></li>
+                    <!-- <li class="navbar-item"><button class="navbar-link" data-nav-link>Contact</button></li> -->
+                </ul>
+            </nav>
+
+            <article class="about active" data-page="about">
+                <header>
+                    <h2 class="h2 article-title">About me</h2>
+                </header>
+
+                <section class="about-text">
+                    <p>Results-driven Frontend Engineer with 3+ years of experience building high-performance, scalable web applications. Expertise in React, TypeScript, and modern UI frameworks, ensuring seamless functionality and accessibility across devices.</p>
+                    <p>Acted as an SME for a new CMS system built from the ground up, optimizing content workflows and improving site scalability. Collaborated with international clients, government agencies, and medical institutions to develop secure, efficient, and responsive web platforms. Currently expanding expertise into React Native for cross-platform mobile development. Strong advocate for performance optimization, Agile methodologies, and accessible UI/UX best practices.</p>
+                </section>
+
+                <section class="service">
+                    <h3 class="h3 service-title">What I'm doing</h3>
+
+                    <ul class="service-list">
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="https://i.postimg.cc/ZqgqrqzG/icon-dev.png" alt="icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Web development</h4>
+                                <p class="service-item-text">High-quality development of sites at the professional level.</p>
+                            </div>
+                        </li>
+
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="https://i.postimg.cc/4389jZkP/icon-design.png" alt="icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Web Design</h4>
+                                <p class="service-item-text">The most modern and high-quality design made at a professional level.</p>
+                            </div>
+                        </li>
+
+
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="https://i.postimg.cc/xjLdzYxZ/icon-app.png" alt="icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Mobile apps</h4>
+                                <p class="service-item-text">Professional development of applications for iOS and Android.</p>
+                            </div>
+                        </li>
+
+                        <!-- <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="https://i.postimg.cc/0NL8zHpx/icon-photo.png" alt="icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Photography</h4>
+                                <p class="service-item-text">I make high-quality photos of any category at a professional level.</p>
+                            </div>
+                        </li> -->
+                    </ul>
+                </section>
+
+                <section class="testimonials">
+                    <h3 class="h3 testimonials-title">Testimonials</h3>
+
+                    <ul class="testimonials-list has-scrollbar">
+                        <li class="testimonials-item">
+                            <div class="content-card" data-testimonials-item>
+                                <figure class="testimonials-avatar-box">
+                                    <!-- <img src="https://i.postimg.cc/zGDHfn3G/avatar-1.png" alt="avatar" data-testimonials-avatar width="60"> -->
+                                </figure>
+
+                                <!-- <h4 class="h4 testimonials-item-title" data-testimonials-title>Michelle</h4> -->
+                                <h4 class="h4" data-testimonials-title>Michelle</h4>
+
+                                <div class="testimonials-text" data-testimonials-text>
+                                    <p>Keri is mature well beyond her experience. I've never met someone more curious, determined and enthusiastic all in one package. If she doesn't know how to do something, she figures it out and gets it done. A unique professional that anyone would be fortunate to have on their team! I'm so glad our paths crossed.</p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="testimonials-item">
+                            <div class="content-card" data-testimonials-item>
+                                <figure class="testimonials-avatar-box">
+                                    <!-- <img src="https://i.postimg.cc/DwY0yHtx/avatar-2.png" alt="avatar" data-testimonials-avatar width="60"> -->
+                                </figure>
+
+                                <h4 class="h4" data-testimonials-title>Tim</h4>
+
+                                <div class="testimonials-text" data-testimonials-text>
+                                    <p>Though many of my former students, co-workers and associates ask me for recommendations on their behalf, I only recommend those whom I feel are highly motivated and well-suited for the job. Keri is one of those people who is committed and dedicates herself to her work and to complete the task at hand. As Software Engineer Lead for Kellogg School of Management at Northwestern University and Educator at Thinkful (Chegg), Keri has an impressive perspective on web development. It is my opinion that Keri would be an excellent candidate in any organization as she continues to impress me with her ability to quickly learn and apply her knowledge effectively.</p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="testimonials-item">
+                            <div class="content-card" data-testimonials-item>
+                                <figure class="testimonials-avatar-box">
+                                    <!-- <img src="https://i.postimg.cc/fRFWhX9F/avatar-3.png" alt="avatar" data-testimonials-avatar width="60"> -->
+                                </figure>
+
+                                <h4 class="h4" data-testimonials-title>Maria</h4>
+
+                                <div class="testimonials-text" data-testimonials-text>
+                                    <p>It was a privilege to get to know Keri through an interview-coaching session. With the little time we spent together during our meeting, I saw the drive, confidence, and motivation in her toward her career goal as a Front-end developer. Keri is no doubt an asset any employer would be very fortunate to have. She is not only highly competent in her field, but also an excellent communicator and a true team player! Keri is a gem!</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+
+                <div class="modal-container " data-modal-container>
+                    <div class="overlay " data-overlay></div>
+
+                    <section class="testimonials-modal">
+                        <button class="modal-close-btn" data-modal-close-btn><ion-icon name="close-outline"></ion-icon></button>
+
+                        <div class="modal-img-wrapper">
+                            <!-- <figure class="modal-avatar-box">
+                                <img src="https://i.postimg.cc/zGDHfn3G/avatar-1.png" alt="Daniel Lewis" width="80" data-modal-img>
+                            </figure> -->
+
+                            <!-- <img src="https://i.postimg.cc/mZ00RwX7/icon-quote.png" alt="quote icon"> -->
+                        </div>
+
+                        <!-- <div class="modal-content">
+                            <h4 class="h3 modal-title" data-modal-title>Daniel Lewis</h4>
+                            <time datetime="2023-06-14">14 June, 2023</time>
+
+                            <div class="modal-text" data-modal-text>
+                                <p>Richard was hired to create a corporate identity. It's modern, clean and with a beautiful design that got a lot of praises from colleagues and visitors. We were very pleased with the work done. He has a lot of experience and is very concerned about the needs of client.</p>
+                            </div>
+                        </div> -->
+                    </section>
+                </div>
+
+                <!-- <section class="clients">
+                    <h3 class="h3 clients-title">Clients</h3>
+
+                    <ul class="clients-list has-scrollbar">
+                        <li class="clients-item">
+                            <a href="#"><img src="https://i.postimg.cc/YqfKyG66/logo-1-color.png" alt="logo"></a>
+                        </li>
+
+                        <li class="clients-item">
+                            <a href="#"><img src="https://i.postimg.cc/fWm6JtgG/logo-2-color.png" alt="logo"></a>
+                        </li>
+
+                        <li class="clients-item">
+                            <a href="#"><img src="https://i.postimg.cc/Bb07xpwd/logo-3-color.png" alt="logo"></a>
+                        </li>
+
+                        <li class="clients-item">
+                            <a href="#"><img src="https://i.postimg.cc/hv1yMmkh/logo-4-color.png" alt="logo"></a>
+                        </li>
+
+                        <li class="clients-item">
+                            <a href="#"><img src="https://i.postimg.cc/ry1P86Dc/logo-5-color.png" alt="logo"></a>
+                        </li>
+
+                        <li class="clients-item">
+                            <a href="#"><img src="https://i.postimg.cc/SsWDN8NV/logo-6-color.png" alt="logo"></a>
+                        </li>
+                    </ul>
+                </section> -->
+
+            </article>
+            
+            <article class="resume " data-page="resume">
+                <header>
+                    <h2 class="h2 article-title">Resume</h2>
+                </header>
+
+                <section class="timeline">
+                    <div class="title-wrapper">
+                        <div class="icon-box"><ion-icon name="book-outline"></ion-icon></div>
+
+                        <h3 class="h3">Experience</h3>
+                    </div>
+
+                    <ol class="timeline-list">
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Front-End Engineer</h4>
+                            <span>2024 - Present</span>
+                            <p class="timeline-text">Promoted to Frontend Developer II in May 2024 after being selected as an SME for a new CMS system built from the ground up. Played a key role in architecting, optimizing, and guiding its development to meet performance, scalability, and accessibility standards.</p>
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Front-End Developer</h4>
+                            <span>2023 - 2024</span>
+                            <p class="timeline-text">Developed and maintained scalable, high-performance web applications with a strong focus on mobile-first design, responsiveness, and accessibility. Collaborated with cross-functional teams, including UX/UI designers and backend engineers, to ensure seamless functionality and optimized performance across devices.</p>
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Junior Full-Stack Developer</h4>
+                            <span>2022 - 2022</span>
+                            <p class="timeline-text">Developed scalable, high-performance applications using React, SASS, Express, and MySQL, with a focus on clean, maintainable code. Consistently recognized by senior developers for code quality and efficiency, leading to opportunities to mentor peers on best practices.</p>
+                        </li>
+                    </ol>
+                </section>
+
+                <section class="timeline">
+                    <div class="title-wrapper">
+                        <div class="icon-box"><ion-icon name="book-outline"></ion-icon></div>
+
+                        <h3 class="h3">Education</h3>
+                    </div>
+
+                    <ol class="timeline-list">
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Sonoma State University</h4>
+                            <span class="studies">Bachelor of Arts</span>
+                            <span>2018</span>
+                        </li>
+                    </ol>
+                </section>
+
+                <section class="skill">
+                    <h3 class="h3 skills-title">My Skills</h3>
+
+                    <ul class="skills-list content-card">
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">React.js</h5>
+                                <data value="80">80%</data>
+                            </div>
+
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 85%;"></div>
+                            </div>
+                        </li>
+
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Mobile-First Design</h5>
+                                <data value="70">70%</data>
+                            </div>
+
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 70%;"></div>
+                            </div>
+                        </li>
+
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Responsive Web Design</h5>
+                                <data value="90">90%</data>
+                            </div>
+
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 90%;"></div>
+                            </div>
+                        </li>
+
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">TypeScript</h5>
+                                <data value="60">60%</data>
+                            </div>
+
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 60%;"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+            </article>
+
+            <article class="portfolio " data-page="portfolio">
+                <header>
+                    <h2 class="h2 article-title">Portfolio</h2>
+                </header>
+
+                <section class="projects">
+                    <ul class="filter-list">
+                        <li class="filter-item"><button class="active" data-filter-btn>All</button></li>
+                        <li class="filter-item"><button data-filter-btn>Web Design</button></li>
+                        <li class="filter-item"><button data-filter-btn>Applications</button></li>
+                        <li class="filter-item"><button data-filter-btn>Web Development</button></li>
+                    </ul>
+
+                    <div class="filter-select-box">
+                        <button class="filter-select " data-select>
+                            <div class="select-value" data-select-value>Select Category</div>
+
+                            <div class="select-icon">
+                                <ion-icon name="chevron-down"></ion-icon>
+                            </div>
+                        </button>
+
+                        <ul class="select-list">
+                            <li class="select-item"><button data-select-item>All</button></li>
+                            <li class="select-item"><button data-select-item>Web Design</button></li>
+                            <li class="select-item"><button data-select-item>Applications</button></li>
+                            <li class="select-item"><button data-select-item>Web Development</button></li>
+                        </ul>
+                    </div>
+
+                    <ul class="project-list">
+                        <li class="project-item active" data-filter-item data-category="web development">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="https://i.postimg.cc/qRHpHMyd/project-1.jpg" alt="finance" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Finance</h3>
+                                <p class="project-category">Web Development</p>
+                            </a>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="web development">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="https://i.postimg.cc/bNrcM2Wt/project-2.png" alt="orizon" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Orizon</h3>
+                                <p class="project-category">Web Development</p>
+                            </a>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="applications">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="https://i.postimg.cc/dtpXxNGb/project-4.png" alt="brawlhalla" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Brawlhalla</h3>
+                                <p class="project-category">Applications</p>
+                            </a>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="web design">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="https://i.postimg.cc/43T0JKLw/project-5.png" alt="dsm." loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">DSM.</h3>
+                                <p class="project-category">Web Design</p>
+                            </a>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="web design">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="https://i.postimg.cc/qR1DX1kZ/project-6.png" alt="metaspark" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Metaspark</h3>
+                                <p class="project-category">Web Design</p>
+                            </a>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="web development">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="https://i.postimg.cc/Kj4q9tjc/project-7.png" alt="summary" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Summary</h3>
+                                <p class="project-category">Web Development</p>
+                            </a>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="applications">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="https://i.postimg.cc/rw2j4B1w/project-8.jpg" alt="task manager" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Task Manager</h3>
+                                <p class="project-category">Applications</p>
+                            </a>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="web development">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="https://i.postimg.cc/7LxNsSQv/project-9.png" alt="arrival" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Arrival</h3>
+                                <p class="project-category">Web Development</p>
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+            </article> 
+
+            <article class="blog " data-page="blog">
+                <header>
+                    <h2 class="h2 article-title">Blog</h2>
+                </header>
+
+                <section class="blog-posts">
+                    <ul class="blog-posts-list">
+
+                        <!-- #5 -->
+                        <li class="blog-post-item">
+                            <a href="https://www.linkedin.com/posts/keri-ann-wilkins_generativeai-oraclecloud-certification-activity-7219334352193642497-kgvG?utm_source=share&utm_medium=member_desktop&rcm=ACoAADnXgsMB3VWveisqdANbLvVUtAwdhJDwROo">
+                                <figure class="blog-banner-box">
+                                    <img src="https://i.postimg.cc/YCCmVkw9/blog-5.jpg" alt="Design digest #79" loading="lazy">
+                                </figure>
+
+                                <div class="blog-content">
+                                    <div class="blog-meta">
+                                        <p class="blog-category">Announcement</p>
+                                        <span class="dot"></span>
+                                        <time datetime="2024-07-05">Jul 26, 2024</time>
+                                    </div>
+
+                                    <h3 class="h3 blog-item-title">Certificate for Oracle Cloud Infrastructure 2024 Generative AI Certified Professional</h3>
+                                    <p class="blog-text">To achieve this certification, I embarked on a comprehensive learning journey, starting with re-learning Python and delving into the OCI AI Foundations course. It required countless hours of dedication and in-depth study, but the knowledge and skills I've gained in Generative AI are invaluable.</p>
+                                </div>
+                            </a>
+                        </li>
+
+                        <!-- #4 -->
+                        <li class="blog-post-item">
+                            <a href="https://www.linkedin.com/posts/keri-ann-wilkins_oracle-aicertified-oci-activity-7212509795709280257-XCGs?utm_source=share&utm_medium=member_desktop&rcm=ACoAADnXgsMB3VWveisqdANbLvVUtAwdhJDwROo">
+                                <figure class="blog-banner-box">
+                                    <img src="https://i.postimg.cc/YCCmVkw9/blog-5.jpg" alt="Design digest #79" loading="lazy">
+                                </figure>
+
+                                <div class="blog-content">
+                                    <div class="blog-meta">
+                                        <p class="blog-category">Announcement</p>
+                                        <span class="dot"></span>
+                                        <time datetime="2024-07-05">Jul 05, 2024</time>
+                                    </div>
+
+                                    <h3 class="h3 blog-item-title">Certificate for Oracle Cloud Infrastructure 2023 AI Foundations Associate.</h3>
+                                    <p class="blog-text">HI'm thrilled to announce that I've earned the Oracle Cloud Infrastructure 2023 AI Foundations Associate certification! It was an incredible learning experience with Oracle. Excited for the next step: the AI Professional certification!</p>
+                                </div>
+                            </a>
+                        </li>
+
+                        <!-- #3 -->
+                        <li class="blog-post-item">
+                            <a href="https://www.linkedin.com/posts/keri-ann-wilkins_david-g-ewing-activity-7203495032534835200-YQ-l?utm_source=share&utm_medium=member_desktop&rcm=ACoAADnXgsMB3VWveisqdANbLvVUtAwdhJDwROo">
+                                <figure class="blog-banner-box">
+                                    <img src="https://i.postimg.cc/W1T71QcL/blog-3.jpg" alt="Design digest #79" loading="lazy">
+                                </figure>
+
+                                <div class="blog-content">
+                                    <div class="blog-meta">
+                                        <p class="blog-category">Announcement</p>
+                                        <span class="dot"></span>
+                                        <time datetime="2024-07-21">Jun 21, 2024</time>
+                                    </div>
+
+                                    <h3 class="h3 blog-item-title">Developed Motiv's CEO's Website</h3>
+                                    <p class="blog-text">Having the privilege to work alongside our CEO and our designer Sarah Norman, I’m immensely proud of the website we’ve created. As the developer behind the scenes, I dedicated extensive time and effort into building a platform that not only reflects our CEO’s vision but also resonates with our audience.</p>
+                                </div>
+                            </a>
+                        </li>
+
+                        <!-- #2 -->
+                        <li class="blog-post-item">
+                            <a href="https://www.motivcx.com/blog-detail/demystifying-content-part-2-unraveling-the-dynamics-of-cms-and-dam-systems">
+                                <figure class="blog-banner-box">
+                                    <img src="https://i.postimg.cc/zBCBvP16/blog-6.jpg" alt="Best fonts every designer" loading="lazy">
+                                </figure>
+
+                                <div class="blog-content">
+                                    <div class="blog-meta">
+                                        <p class="blog-category">Development</p>
+                                        <span class="dot"></span>
+                                        <time datetime="2024-02-09">Feb 09, 2024</time>
+                                    </div>
+
+                                    <h3 class="h3 blog-item-title">Enhancing Digital Experience with OCI Integration</h3>
+                                    <p class="blog-text">As we align our systems with OCI’s robust capabilities, our focus is on achieving a seamless integration that enhances efficiency, security, and innovation in our digital content management initiatives.</p>
+                                </div>
+                            </a>
+                        </li>
+
+                        <!-- #1 -->
+                        <li class="blog-post-item">
+                            <a href="https://www.motivcx.com/blog-detail/beyond-the-basics-part-1-unraveling-the-dynamics-of-cms-and-dam-systems?_attribute.custom.blog_category=How%20To&Best%20Practice&_attribute.custom.blog_title=Unraveling%20the%20Dynamics%20of%20CMS%20and%20DAM%20Systems">
+                                <figure class="blog-banner-box">
+                                    <img src="https://i.postimg.cc/QC7qFDMs/blog-2.jpg" alt="Design conferences in 2024" loading="lazy">
+                                </figure>
+
+                                <div class="blog-content">
+                                    <div class="blog-meta">
+                                        <p class="blog-category">Development</p>
+                                        <span class="dot"></span>
+                                        <time datetime="2024-01-29">Jan 29, 2024</time>
+                                    </div>
+
+                                    <h3 class="h3 blog-item-title">Dynamics of CMS and DAM Systems</h3>
+                                    <p class="blog-text">Stay tuned for the upcoming segments, where we'll unveil the synergy between Oracle and Motiv in our quest for a new CMS and DAM system. Oracle's decision to sunset Oracle Content Management (OCM) propels us into an exciting journey to discover innovative alternatives.</p>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+            </article>
+
+            <article class="contact " data-page="contact">
+                <header>
+                    <h2 class="h2 article-title">Contact</h2>
+                </header>
+
+                <!-- <section class="mapbox" data-mapbox> -->
+                    <!-- <figure>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
+                         width="400" height="300" loading="lazy"></iframe>
+                    </figure> -->
+                <!-- </section> -->
+
+                <section class="contact-form">
+                    <h3 class="h3 form-title">Contact Form</h3>
+
+                    <form action="#" class="form" data-form>
+                        <div class="input-wrapper">
+                            <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+                            <input type="email" name="email" class="form-input" placeholder="Email Address" required data-form-input>
+                        </div>
+
+                        <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input=""></textarea>
+
+                        <button class="form-btn" type="submit" disabled data-form-btn>
+                            <ion-icon name="paper-plane"></ion-icon>
+                            <span>Send Message</span>
+                        </button>
+                    </form>
+                </section>
+            </article>
+        </div>
+    </main>
+
+    <script src="main.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
